@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.menglc</groupId>
+    <artifactId>menglc-dubbo-rpc</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>netty-dubbo-common</module>
+        <module>menglc-netty-dubbo-server</module>
+        <module>member-service-producer-api</module>
+        <module>member-service-producer-impl</module>
+        <module>order-consumer-impl</module>
+        <module>order-service-consumer-api</module>
+        <module>order-service-consumer-impl</module>
+    </modules>
+
+
+</project>
